@@ -5,10 +5,10 @@
 }
 
 :root {
-    --primary-color: #a78bfa;
+    --primary-color: #8e73e0;
     --darkgrey-color: grey;
     --offwhite-color: #f3f4f6;
-    --top-bottom-button-color: #97CAEF;
+    --top-bottom-button-color: #80bae4;
 }
 
 html {
@@ -21,6 +21,7 @@ body {
     max-width: 85%;
     width: 100%;
 }
+.circular--portrait { position: relative; width: 70px; height: 70px; overflow: hidden; border-radius: 50%; } .circular--portrait img { width: 100%; height: auto; }
 
 hr {
     margin: 2rem 0rem;
@@ -87,7 +88,7 @@ hr {
 
 .navigation .nav-brand {
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 }
 
 .navigation .link {
